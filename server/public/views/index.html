@@ -9,6 +9,18 @@
         <script type="text/javascript" src="/scripts/app.js"></script>
     </head>
     <body>
+      <p>Tales of Eta</p>
+      <script id="people" type="text/x-handlebars-template">
+        <div class="entire">
+          <div class="name"><h1>{{firstName}} {{lastName}}</h1></div>
+              <div class="movies">{{#each favoriteMovies}}
+                <p>{{movieName}}{{releaseYear}}</p>
+                {{/each}}
+              </div>
+          </div>
+      </script>
+      <div class="previous button">Previous Button</div>
+      <div class="next button">Next Button</div>
     </body>
 
 </html>

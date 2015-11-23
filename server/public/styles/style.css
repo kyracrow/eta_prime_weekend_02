@@ -1,0 +1,14 @@
+body{
+  background-color: #333333;
+}
+
+p{
+  margin: auto;
+  width: 50%;
+  font-size: 25px;
+}
+
+h1{
+  margin: auto;
+  width: 50%;
+}
