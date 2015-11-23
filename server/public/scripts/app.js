@@ -29,7 +29,12 @@ function shoveToTemplate ( ) {
   completeHandlebarsTemplate = theTemplate( students.eta[ person ] );
 
   //CompleteHandlebarsTemplate is appended to the body
-    $( "body" ).html( completeHandlebarsTemplate );
+    $( "section" ).html( completeHandlebarsTemplate );
 }
+
+$( ".prevButton" ).on( "click", function() {
+  console.log( "Hello" );
+
+} );
 
 } );
